@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: url("../images/book3.jpg") no-repeat 0 0;
+    background-size: 100%;
+}
+.z-content{
+    width: 300px;
+    margin: 100px auto;
+}
+
+.z-content p{
+    color: #2a2a2a;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.z-content p:first-of-type{
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+.z-content a{
+    display:block;
+    font-size: 18px;
+    float: left;
+    margin-top: 30px;
+    height: 30px;
+    padding:0 20px;
+    background-color:#688396;
+    border: 1px solid #2a2a2a;
+    color:white;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.z-content a:first-of-type{
+    margin-right: 50px;
+    margin-left: 10px;
+}
+@media all and (min-width: 415px){
+    .z-content{
+        width: 500px;
+        margin-top: 300px;
+    }
+    .z-content a:last-of-type{
+        float: right;
+        margin-right: 20px;
+    }
+    .z-content p:first-of-type{
+        line-height: 50px;
+    }
+}
+@media screen and (max-width: 321px){
+    .z-content{
+        margin-top: 80px;
+    }
+    .z-content p{
+        font-size: 12px;
+    }
+}
