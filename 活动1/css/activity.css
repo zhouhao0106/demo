@@ -5,14 +5,24 @@
     list-style: none;
 }
 body{
-    background: url("../images/book3.jpg") no-repeat 0 0;
+    background: url("../images/1.jpg") no-repeat 0 0;
     background-size: 100%;
 }
-.z-content{
-    width: 300px;
-    margin: 100px auto;
+header{
+    width: 100%;
+    height: 250px;
 }
-
+.z-content{
+    width:300px;
+    height:auto;
+    margin: 0 auto;
+}
+@media screen and (max-width: 321px){
+    header{
+        width: 100%;
+        height: 120px;
+    }
+}
 .z-content p{
     color: #2a2a2a;
     line-height: 24px;
@@ -27,35 +37,32 @@ body{
     letter-spacing: 3px;
 }
 .z-content a{
+    margin: 0 auto;
     display:block;
     font-size: 18px;
     float: left;
-    margin-top: 30px;
     height: 30px;
-    padding:0 20px;
+    width: 90%;
     background-color:#688396;
-    border: 1px solid #2a2a2a;
     color:white;
     text-align: center;
     border-radius: 10px;
     line-height: 30px;
     font-weight: bold;
+    left: 5%;
+
 }
 .z-content a:first-of-type{
-    margin-right: 50px;
-    margin-left: 10px;
+   position: fixed;
+    bottom: 50px;
 }
-@media all and (min-width: 415px){
+.z-content a:last-of-type{
+    position: fixed;
+    bottom: 10px;
+}
+@media screen and (min-width: 767px){
     .z-content{
-        width: 500px;
-        margin-top: 300px;
-    }
-    .z-content a:last-of-type{
-        float: right;
-        margin-right: 20px;
-    }
-    .z-content p:first-of-type{
-        line-height: 50px;
+        margin-top: 250px;
     }
 }
 @media screen and (max-width: 321px){

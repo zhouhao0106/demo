@@ -68,7 +68,7 @@ dd p i{
 }
 @media screen and (max-width: 321px){
     header{
-        height: 100px;
+        height: 250px;
     }
 }
 footer{
@@ -96,7 +96,19 @@ footer a:hover{
 }
 footer a:first-of-type{
     top: 20px;
+    cursor: pointer;
 }
 footer a:last-of-type{
     top: 60px;
+}
+#black{
+    width: 100%;
+    height: 100%;
+    background: url("../images/OK.jpg") no-repeat 0 0;
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    opacity: 0.8;
+    display: none;
 }

@@ -13,9 +13,9 @@
     <img src="images/3.jpg" alt="">
 </header>
 <form action="" id="form1">
-    <input type="text" name="" placeholder="联系人/公司名称" required/>
-    <input type="text" name="" id="phone" placeholder="联系电话" required pattern="1[0-9]{10}"/>
-    <input type="number" id="num" placeholder="预估本数" min="20" required>
+    <input type="text" name="" id="people" placeholder="联系人/公司名称"/>
+    <input type="text" name="" id="phone" placeholder="联系电话"/>
+    <input type="number" id="num" placeholder="预估本数"  >
     <div class="zcity">
         <div class="infolist">
             <div class="liststyle">
@@ -44,8 +44,8 @@
         </div>
     </div>
     <div class="empty"></div>
-    <input type="text" name="" id="detail" placeholder="如:金海路6号A区302室（详细到号、弄、道）" required>
-    <input type="text" name="" id="date" placeholder="期望上门收书日期"  required>
+    <input type="text" name="" id="detail" placeholder="如:金海路6号A区302室（详细到号、弄、道）" >
+    <input type="text" name="" id="date" placeholder="期望上门收书日期(年/月/日或年-月-日)">
     <input type="text" id="bei" placeholder="备注（可不填）"/>
     <div class="content">
         <p><i></i>至少有二十本书才会安排工作人员免费上门收取你的二手书，没有二十本可以等累积到那么多再预约，或者和邻居朋友拼单预约。</p>
@@ -57,5 +57,6 @@
 </form>
 </body>
 <script src="js/jquery.min.js"></script>
+<script src="js/book.js"></script>
 <script type="text/javascript" src="js/city.min.js"></script>
 </html>

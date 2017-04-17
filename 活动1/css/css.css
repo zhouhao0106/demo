@@ -48,8 +48,6 @@ img{
     height: 180px;
 }
 input{
-    /*color: #767676;*/
-    /*color: #b3b3b3;*/
     font-family: "Microsoft YaHei", SimHei, "微软雅黑", "黑体";
     width: 100%;
     height: 40px;
@@ -97,6 +95,9 @@ input[type=submit]{
     border-bottom: none;
     border-right: none;
 }
+#form1{
+    position: relative;
+}
 #detail{
   text-indent: 50px;
 }
@@ -104,9 +105,9 @@ input[type=submit]{
     width: 50px;
     height: 50px;
     position: absolute;
-    background: white url("../images/location.png") no-repeat 15px 0;
+    background: url("../images/location.png") no-repeat 0 0;
     border: none;
-    top: 320px;
+    top: 135px;
 }
 .content{
     width: 100%;
