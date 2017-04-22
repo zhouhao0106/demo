@@ -26,3 +26,10 @@ $(function () {
         $(document.documentElement).scrollTop(0);
     })
 });
+$(function () {
+    $(".Menubar-3-1 dl").mouseover(function () {
+       $(this).find(".addshop").show();
+    }).mouseout(function () {
+        $(this).find(".addshop").hide();
+    });
+})

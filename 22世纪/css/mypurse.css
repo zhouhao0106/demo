@@ -1,0 +1,216 @@
+body{
+    background-color: #f6f6f6;
+}
+.mypurse-part1{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.mypurse-part1-1{
+    float: left;
+    width: 180px;
+    height: 300px;
+    background-color: white;
+    border-top: 2px solid #efa26f;
+}
+.mypurse-part1-1 h3{
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-bottom: 1px solid #ebebeb;
+}
+.mypurse-part1-1 h3 a{
+    color: #333;
+}
+.mypurse-part1-1 li{
+    display: block;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+.mypurse-part1-1 li a{
+    color: #666;
+}
+.mypurse-part1-1 li a:hover{
+    color: #efa26f;
+    text-decoration: underline;
+}
+.mypurse-part1-1 li:first-of-type{
+    background-color: #efa26f;
+}
+.mypurse-part1-1 li:first-of-type a{
+    color: white;
+}
+.mypurse-part1-1 li:first-of-type a:hover{
+    color: white;
+    text-decoration: none;
+}
+.mypurse-part1-2{
+    width: 970px;
+    float: left;
+    margin-left: 50px;
+}
+.mypurse-part1-21{
+    width: 140px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #efa26f;
+}
+.mypurse-part1-21 p{
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 14px;
+}
+.mypurse-part1-22{
+    width: 970px;
+    height: 80px;
+    background-color: white;
+}
+.mypurse-part1-22 ul li{
+    float: left;
+    display: block;
+    width: 80px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.mypurse-part1-22 ul li span{
+    color: red;
+}
+.mypurse-part1-22 ul li:nth-child(1){
+    border-bottom: 2px solid red;
+}
+.purse_top{
+    width:970px;
+    height: 40px;
+    background-color: #efa26f;
+    margin-top: 20px;
+}
+.purse_top div{
+    color: white;
+    font-size: 14px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+.purse_middle{
+    width: 970px;
+    height: 40px;
+    background-color:#f5f5f5 ;
+    border: 1px solid white;
+}
+.purse_middle p{
+    float: left;
+    line-height: 40px;
+    color: #999;
+    font-size: 14px;
+}
+.purse_middle img{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.purse_middle p:nth-child(1){
+    margin-left: 20px;
+}
+.purse_middle p:nth-child(2){
+    margin-left: 20px;
+}
+.purse{
+    width: 970px;
+    height: 125px;
+    background-color:white ;
+    border: 1px solid white;
+    border-top: 1px solid #ededed;
+}
+.purse div{
+    float: left;
+    height: 125px;
+    padding-top: 20px;
+    color: #999;
+    font-size: 14px;
+}
+.purse_top1,
+.purse1{
+    width: 470px;
+}
+.purse_top2,
+.purse2{
+    width: 100px;
+}
+.purse_top3,
+.purse3{
+    width: 100px;
+}
+.purse_top4,
+.purse4{
+    width: 100px;
+}
+.purse_top5,
+.purse5{
+    width: 100px;
+}
+.purse5 a{
+    color: #999;
+}
+.purse_top6,
+.purse6{
+    width: 100px;
+}
+.purse2,.purse3,.purse4,.purse5,.purse6{
+    text-align: center;
+}
+.purse1 a{
+    color: #999;
+}
+.purse1 a:hover{
+    text-decoration: underline;
+}
+.purse1 a:nth-child(1){
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: block;
+    border: 1px solid #dbdbdb;
+}
+.purse1 img{
+    width: 80px;
+    height: 80px;
+}
+.purse6 a{
+    display: block;
+    width: 75px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 25px;
+    color: #333;
+}
+.purse6 a:hover{
+    border: 1px solid red;
+    color: red;
+}
+#pur6 a{
+    margin-bottom: 5px;
+}
+#pur6 a:nth-child(1){
+    background-color: red;
+    color: white;
+    border: none;
+}
+#pur6 a:nth-child(3){
+    border: none;
+}
+.wait-pay1{
+    display: none;
+}
