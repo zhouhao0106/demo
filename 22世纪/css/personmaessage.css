@@ -1,0 +1,162 @@
+body{
+    background-color: #f6f6f6;
+}
+.mypurse-part1{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.mypurse-part1-1{
+    float: left;
+    width: 180px;
+    height: 300px;
+    background-color: white;
+    border-top: 2px solid #efa26f;
+}
+.mypurse-part1-1 h3{
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-bottom: 1px solid #ebebeb;
+}
+.mypurse-part1-1 h3 a{
+    color: #333;
+}
+.mypurse-part1-1 li{
+    display: block;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+.mypurse-part1-1 li a{
+    color: #666;
+}
+.mypurse-part1-1 li a:hover{
+    color: #efa26f;
+    text-decoration: underline;
+}
+.mypurse-part1-1 li:nth-child(3){
+    background-color: #efa26f;
+}
+.mypurse-part1-1 li:nth-child(3) a{
+    color: white;
+}
+.mypurse-part1-1 li:nth-child(3) a:hover{
+    color: white;
+    text-decoration: none;
+}
+.mypurse-part1-2{
+    width: 970px;
+    height: 600px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+    overflow: hidden;
+}
+.per-detail{
+    width: 800px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 1px solid #dddddd;
+    position: relative;
+}
+.per-detail1{
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.form-1{
+    width: 500px;
+    height: 40px;
+    font-size: 14px;
+}
+.form-L{
+    width: 100px;
+    height: 40px;
+    float: left;
+}
+.form-L p{
+    text-align: right;
+    line-height: 40px;
+}
+.form-R{
+    width: 390px;
+    height: 40px;
+    float: right;
+}
+.form-R p{
+    line-height: 40px;
+    font-weight: bold;
+}
+.form-R input[type=radio]{
+    margin-top: 15px;
+}
+.form-R input[type=date]{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 140px;
+    border: 1px solid #dddddd;
+}
+.form-R span,.form-R a{
+    line-height: 40px;
+}
+.form-R a{
+    margin-left: 10px;
+    color: #666666;
+}
+#area select {
+    background: transparent;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    height: 25px;
+    margin-right: 5px;
+}
+#area{
+    margin-top: 8px;
+}
+.form-R input[type=text]{
+    margin-top: 10px;
+    width: 140px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+.form-1 input[type=submit]{
+    width: 50px;
+    height: 16px;
+    border-radius: 5px;
+    margin-left: 110px;
+    line-height: 16px;
+}
+.update-img{
+    width: 120px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+}
+.update-img p{
+    text-align: center;
+}
+.update-img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.full-black{
+    position: fixed;
+    top: 0;
+    z-index: 222;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    display: none;
+}

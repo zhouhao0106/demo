@@ -1,0 +1,210 @@
+body{
+    background-color: #f6f6f6;
+}
+.mypurse-part1{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.mypurse-part1-1{
+    float: left;
+    width: 180px;
+    height: 300px;
+    background-color: white;
+    border-top: 2px solid #efa26f;
+}
+.mypurse-part1-1 h3{
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-bottom: 1px solid #ebebeb;
+}
+.mypurse-part1-1 h3 a{
+    color: #333;
+}
+.mypurse-part1-1 li{
+    display: block;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+.mypurse-part1-1 li a{
+    color: #666;
+}
+.mypurse-part1-1 li a:hover{
+    color: #efa26f;
+    text-decoration: underline;
+}
+.mypurse-part1-1 li:nth-child(4){
+    background-color: #efa26f;
+}
+.mypurse-part1-1 li:nth-child(4) a{
+    color: white;
+}
+.mypurse-part1-1 li:nth-child(4) a:hover{
+    color: white;
+    text-decoration: none;
+}
+.mypurse-part1-2{
+    width: 970px;
+    height: 650px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+    overflow: hidden;
+}
+.myaddress-1{
+    width: 830px;
+    height: 580px;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.myaddress-11{
+    width: 760px;
+    height: 580px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.myaddress-11 h2{
+    font-weight: normal;
+    color: #333333;
+    line-height: 50px;
+    font-size: 22px;
+}
+.Myadress_top,
+.Myadress{
+    width: 760px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.pay-attention{
+    width: 760px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom:1px solid #dddddd;
+    font-size: 12px;
+    color: red;
+}
+.Myadress_top{
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #dddddd;
+}
+.Myadress{
+    border-bottom:1px solid #dddddd;
+}
+.Myadress_top div,
+.Myadress div{
+    float: left;
+    height: 50px;
+    font-size: 12px;
+}
+.Myadress_top div{
+    color: #333333;
+}
+.Myadress div{
+    color: #666666;
+}
+.Myadress_top1,
+.Myadress1{
+    width: 100px;
+}
+.Myadress_top2,
+.Myadress2{
+    width: 360px;
+}
+.Myadress_top3,
+.Myadress3{
+    width: 150px;
+}
+.Myadress_top4,
+.Myadress4{
+    width: 150px;
+}
+.myaddress-11 h4{
+    color: #666666;
+    font-size: 15px;
+    line-height: 40px;
+}
+.form-address{
+    width: 760px;
+    height: 40px;
+}
+.form-address div{
+    height: 40px;
+}
+.form-address-L{
+    float: left;
+    width: 80px;
+    text-align: right;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+}
+.form-address-L span{
+    color: red;
+    margin-right: 5px;
+}
+.form-address-R{
+    float: right;
+    width: 670px;
+}
+.form-address-R input{
+    outline: none;
+    font-size: 12px;
+}
+.Text{
+    width: 180px;
+    height: 25px;
+    margin-top: 5px;
+}
+#area{
+    margin-top: 7px;
+}
+#area select {
+    background: transparent;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    height: 25px;
+    margin-right: 5px;
+}
+.address-detail{
+    width: 300px;
+    height: 25px;
+    margin-top: 5px;
+}
+.address-phone{
+    width: 180px;
+    height: 25px;
+    margin-top: 5px;
+}
+.address-email{
+    width: 180px;
+    height: 25px;
+    margin-top: 5px;
+}
+#address-submit{
+    width: 125px;
+    height: 30px;
+    background-color: #f4f4f4;
+    color: #666666;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.address-yb{
+    width: 180px;
+    height: 25px;
+    margin-top: 5px;
+}
+.del-Myadress{
+    cursor: pointer;
+}

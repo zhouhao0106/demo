@@ -81,15 +81,14 @@ article{
     width: 1200px;
     height: 100px;
     margin: 0 auto;
+    padding-top: 30px;
     position: relative;
 }
 .Seach{
     margin-left: 250px;
-    padding-top: 30px;
-    /*margin-top: 30px;*/
-    width: 500px;
+    width: 485px;
     height: 35px;
-    overflow: hidden;
+    border: 2px solid #f47b2b;
 }
 .Seach input{
     float: left;
@@ -99,7 +98,7 @@ input[type=search]{
     text-indent: 1em;
     width: 415px;
     height: 35px;
-    border: 2px solid #f47b2b;
+   border: none;
 }
 input[type=submit]{
     width: 70px;

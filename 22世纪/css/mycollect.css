@@ -1,0 +1,208 @@
+body{
+    background-color: #f6f6f6;
+}
+.mypurse-part1{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.mypurse-part1-1{
+    float: left;
+    width: 180px;
+    height: 300px;
+    background-color: white;
+    border-top: 2px solid #efa26f;
+}
+.mypurse-part1-1 h3{
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-bottom: 1px solid #ebebeb;
+}
+.mypurse-part1-1 h3 a{
+    color: #333;
+}
+.mypurse-part1-1 li{
+    display: block;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+.mypurse-part1-1 li a{
+    color: #666;
+}
+.mypurse-part1-1 li a:hover{
+    color: #efa26f;
+    text-decoration: underline;
+}
+.mypurse-part1-1 li:nth-child(6){
+    background-color: #efa26f;
+}
+.mypurse-part1-1 li:nth-child(6) a{
+    color: white;
+}
+.mypurse-part1-1 li:nth-child(6) a:hover{
+    color: white;
+    text-decoration: none;
+}
+.mypurse-part1-2{
+    width: 970px;
+    height: 650px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+    overflow: hidden;
+}
+.benefit{
+    width: 800px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.benefit-detail{
+    width: 800px;
+    height: 600px;
+    border: 1px solid #dddddd;
+    position: relative;
+    overflow: hidden;
+}
+.benefit-detail h4{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.page{
+    width: 760px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.page a{
+    display: block;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    background-color: #efefef;
+    float: left;
+    color: #666;
+    line-height: 30px;
+    font-size: 12px;
+}
+.page div{
+    float: right;
+    margin-top: 15px;
+}
+.imfor_top div {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+.imfor_top{
+    width: 760px;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.imfor{
+    width: 760px;
+    height: 120px;
+    border-bottom: 1px solid #ddd;
+    margin: 0 auto;
+}
+.imfor div {
+    height: 120px;
+    font-size: 14px;
+}
+.check,.pices,.adress{
+    line-height: 120px;
+    text-align: center;
+}
+.check,
+.check_top {
+    width: 60px;
+}
+.pudc,
+.pudc_top {
+    width: 400px;
+    position: relative;
+}
+.pudc img{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-top: 20px;
+}
+.pudc a{
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #666;
+}
+.pudc p{
+    position: absolute;
+    bottom: 10px;
+    left: 90px;
+    color: #666;
+}
+.pudc p i{
+    font-style: normal;
+}
+.pices,
+.pices_top {
+    width: 100px;
+}
+.adress_top,
+.adress{
+    width: 100px;
+}
+.del-1,
+.del_top {
+    width: 100px;
+    text-align: center;
+}
+.del-1 a{
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+    width: 80px;
+    height: 20px;
+    background-color: #f47b2b;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.del-1 p{
+    line-height: 30px;
+    color: blue;
+    cursor: pointer;
+}
+.imfor_top div,
+.imfor div {
+    float: left;
+}
+.pices{
+    color: rgb(204,0,0);
+}
+.foot-delete{
+    width: 760px;
+    height: 40px;
+    border-bottom: 1px solid #ddd;
+    margin: 0 auto;
+}
+.foot_del{
+    line-height: 40px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: blue;
+    cursor: pointer;
+}

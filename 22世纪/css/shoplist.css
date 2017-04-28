@@ -5,9 +5,9 @@
     list-style: none;
     font-family: "Microsoft YaHei", "微软雅黑", "黑体";
 }
-body{
-    background-color:#ededed ;
-}
+/*body{*/
+    /*background-color:#ededed ;*/
+/*}*/
 img{
     border: none;
 }
@@ -20,7 +20,7 @@ img{
     height: 20px;
     margin: 0 auto;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .Menubar-1 li{
     float: left;

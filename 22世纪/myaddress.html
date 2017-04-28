@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/public.css">
-    <link rel="stylesheet" href="css/shoplist.css">
-    <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/myaddress.css">
 </head>
 <body>
 <div class="T-header">
     <header>
         <ul>
             <li>欢迎光临22世纪未来生活</li>
-            <li><a href="">请登录</a></li>
-            <li><a href="">免费注册</a></li>
+            <li><a href="">用户名称</a></li>
+            <li><a href="">退出</a></li>
             <li>|</li>
-            <li><a href="">我的订单</a></li>
+            <!--<li><a href="">我的订单</a></li>-->
+            <li><a href="">我的账户</a></li>
             <li><a href="">客户服务<i><img src="img/icon-xia.png" alt="" class="img1"></i></a>
                 <div class="show">
                     <p><a href="">帮助中心</a></p>
@@ -284,204 +283,107 @@
         </ul>
     </nav>
 </div>
-<div class="Menubar">
-    <ul class="Menubar-1">
-        <li>
-            <a href="">全部</a>
-        </li>
-        <li>共 <i>111</i>件商品</li>
+<div class="mypurse-part1">
+    <ul class="mypurse-part1-1">
+        <h3><a href="">22世纪未来生活</a></h3>
+        <li><a href="">我的订单</a></li>
+        <li><a href="">个人信息</a></li>
+        <li><a href="">我的地址</a></li>
+        <li><a href="">我的优惠劵</a></li>
+        <li><a href="">我的收藏</a></li>
     </ul>
-    <ul class="Menubar-2">
-        <li>
-        <div class="menu-L">
-            <p>分类：</p>
-        </div>
-        <div class="menu-R">
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-            <a href="">ceshi(0)</a>
-        </div>
-    </li>
-        <li>
-        <div class="menu-L">
-            <p>价格：</p>
-        </div>
-        <div class="menu-R">
-            <a href="">10元以下</a>
-            <a href="">10-30元</a>
-            <a href="">30-50元</a>
-            <a href="">50-80元</a>
-            <a href="">80-100元</a>
-            <a href="">100元以上</a>
-        </div>
-    </li>
-        <li>
-            <div class="menu-L">
-                <p>适用人群：</p>
+    <div class="mypurse-part1-2">
+        <div class="myaddress-1">
+            <div class="myaddress-11">
+                <h2>收货地址</h2>
+                <div class="Myadress_top">
+                    <div class="Myadress_top1">
+                        <p>收货人</p>
+                    </div>
+                    <div class="Myadress_top2">
+                        <p>详细地址</p>
+                    </div>
+                    <div class="Myadress_top3">
+                        <p>手机号码</p>
+                    </div>
+                    <div class="Myadress_top4">
+                        <p>操作</p>
+                    </div>
+                </div>
+                <div class="Myadress">
+                    <div class="Myadress1">
+                        <p>预言家</p>
+                    </div>
+                    <div class="Myadress2">
+                        <p>上海市 浦东新区 金海路上海第二大工业大学</p>
+                    </div>
+                    <div class="Myadress3">
+                        <p>18790151843</p>
+                    </div>
+                    <div class="Myadress4">
+                        <p class="del-Myadress">删除</p>
+                    </div>
+                </div>
+                <div class="pay-attention">
+                    温馨提示：修改地址不会影响你正在修改的订单
+                </div>
+                <h4>使用新地址</h4>
+                <form action="">
+                    <div class="form-address">
+                        <div class="form-address-L">
+                            <span>*</span>收货人:
+                        </div>
+                        <div class="form-address-R">
+                            <input type="text" required class="Text">
+                        </div>
+                    </div>
+                    <div class="form-address">
+                        <div class="form-address-L">
+                            <span>*</span>所在地区:
+                        </div>
+                        <div class="form-address-R">
+                            <div id="area"></div>
+                        </div>
+                    </div>
+                    <div class="form-address">
+                        <div class="form-address-L">
+                            <span>*</span>详细地址:
+                        </div>
+                        <div class="form-address-R">
+                            <input type="text" required class="address-detail" placeholder="请填写详细地址">
+                        </div>
+                    </div>
+                    <div class="form-address">
+                        <div class="form-address-L">
+                            <span>*</span>手机:
+                        </div>
+                        <div class="form-address-R">
+                            <input type="text" required class="address-phone" pattern="^1[0-9]{10}">
+                        </div>
+                    </div>
+                    <div class="form-address">
+                        <div class="form-address-L">
+                            电子邮件:
+                        </div>
+                        <div class="form-address-R">
+                            <input type="text"  class="address-email">
+                        </div>
+                    </div>
+                    <div class="form-address">
+                        <div class="form-address-L">
+                            邮政编码:
+                        </div>
+                        <div class="form-address-R">
+                            <input type="text"  class="address-yb">
+                        </div>
+                    </div>
+                    <input type="submit" value="保存收货人信息" id="address-submit">
+                </form>
             </div>
-            <div class="menu-R">
-                <a href="">10元以下</a>
-                <a href="">10-30元</a>
-                <a href="">30-50元</a>
-                <a href="">50-80元</a>
-                <a href="">80-100元</a>
-                <a href="">100元以上</a>
-            </div>
-        </li>
-    </ul>
-    <div class="Menubar-3">
-        <div class="Menubar-3-1">
-            <dl>
-                <dt><a href=""><img src="img/watch1.jpg" alt=""></a></dt>
-                <dd>
-                    <a href="">TISSOT/天梭俊雅系列石英男士手表<br/>【T063.610.16.058.00】全国联保</a>
-                    <div class="Prise">
-                       <p>￥ 8888</p>
-                        <span>销量：88件</span>
-                    </div>
-                    <div class="addshop">
-                        <a href="javascript:;" id="addshop1">加入购物车</a>
-                        <p>收藏</p>
-                    </div>
-                </dd>
-            </dl>
-            <dl>
-                <dt><a href=""><img src="img/watch1.jpg" alt=""></a></dt>
-                <dd>
-                    <a href="">TISSOT/天梭俊雅系列石英男士手表<br/>【T063.610.16.058.00】全国联保</a>
-                    <div class="Prise">
-                        <p>￥ 8888</p>
-                        <span>销量：88件</span>
-                    </div>
-                    <div class="addshop">
-                        <a href="javascript:;" id="addshop1">加入购物车</a>
-                        <p>收藏</p>
-                    </div>
-                </dd>
-            </dl>
-            <dl>
-                <dt><a href=""><img src="img/watch1.jpg" alt=""></a></dt>
-                <dd>
-                    <a href="">TISSOT/天梭俊雅系列石英男士手表<br/>【T063.610.16.058.00】全国联保</a>
-                    <div class="Prise">
-                        <p>￥ 8888</p>
-                        <span>销量：88件</span>
-                    </div>
-                    <div class="addshop">
-                        <a href="javascript:;" id="addshop1">加入购物车</a>
-                        <p>收藏</p>
-                    </div>
-                </dd>
-            </dl>
-            <dl>
-                <dt><a href=""><img src="img/watch1.jpg" alt=""></a></dt>
-                <dd>
-                    <a href="">TISSOT/天梭俊雅系列石英男士手表<br/>【T063.610.16.058.00】全国联保</a>
-                    <div class="Prise">
-                        <p>￥ 8888</p>
-                        <span>销量：88件</span>
-                    </div>
-                    <div class="addshop">
-                        <a href="javascript:;" id="addshop1">加入购物车</a>
-                        <p>收藏</p>
-                    </div>
-                </dd>
-            </dl>
-            <dl>
-                <dt><a href=""><img src="img/watch1.jpg" alt=""></a></dt>
-                <dd>
-                    <a href="">TISSOT/天梭俊雅系列石英男士手表<br/>【T063.610.16.058.00】全国联保</a>
-                    <div class="Prise">
-                        <p>￥ 8888</p>
-                        <span>销量：88件</span>
-                    </div>
-                    <div class="addshop">
-                        <a href="javascript:;" id="addshop1">加入购物车</a>
-                        <p>收藏</p>
-                    </div>
-                </dd>
-            </dl>
-            <dl>
-                <dt><a href=""><img src="img/watch1.jpg" alt=""></a></dt>
-                <dd>
-                    <a href="">TISSOT/天梭俊雅系列石英男士手表<br/>【T063.610.16.058.00】全国联保</a>
-                    <div class="Prise">
-                        <p>￥ 8888</p>
-                        <span>销量：88件</span>
-                    </div>
-                    <div class="addshop">
-                        <a href="javascript:;" id="addshop1">加入购物车</a>
-                        <p>收藏</p>
-                    </div>
-                </dd>
-            </dl>
-            <dl>
-                <dt><a href=""><img src="img/watch1.jpg" alt=""></a></dt>
-                <dd>
-                    <a href="">TISSOT/天梭俊雅系列石英男士手表<br/>【T063.610.16.058.00】全国联保</a>
-                    <div class="Prise">
-                        <p>￥ 8888</p>
-                        <span>销量：88件</span>
-                    </div>
-                    <div class="addshop">
-                        <a href="javascript:;" id="addshop1">加入购物车</a>
-                        <p>收藏</p>
-                    </div>
-                </dd>
-            </dl>
-            <dl>
-                <dt><a href=""><img src="img/watch1.jpg" alt=""></a></dt>
-                <dd>
-                    <a href="">TISSOT/天梭俊雅系列石英男士手表<br/>【T063.610.16.058.00】全国联保</a>
-                    <div class="Prise">
-                        <p>￥ 8888</p>
-                        <span>销量：88件</span>
-                    </div>
-                    <div class="addshop">
-                        <a href="javascript:;" id="addshop1">加入购物车</a>
-                        <p>收藏</p>
-                    </div>
-                </dd>
-            </dl>
-            <dl>
-                <dt><a href=""><img src="img/watch1.jpg" alt=""></a></dt>
-                <dd>
-                    <a href="">TISSOT/天梭俊雅系列石英男士手表<br/>【T063.610.16.058.00】全国联保</a>
-                    <div class="Prise">
-                        <p>￥ 8888</p>
-                        <span>销量：88件</span>
-                    </div>
-                    <div class="addshop">
-                        <a href="javascript:;" id="addshop1">加入购物车</a>
-                        <p>收藏</p>
-                    </div>
-                </dd>
-            </dl>
         </div>
     </div>
 </div>
-<div style="width: 100%;height: 30px;background-color: #ebebeb;clear: both;"></div>
+<div style="width: 100%;height: 30px;background-color: #f6f6f6;clear: both;"></div>
 <div class="T-decrible">
     <div class="decrible">
         <div>
@@ -559,48 +461,35 @@
         </li>
     </ul>
 </div>
-<div class="p-last">
-    <footer>
-        <ul class="Last-1">
-            <li><a href="">公司简介</a></li>
-            <li>|</li>
-            <li><a href="">联系我们</a></li>
-            <li>|</li>
-            <li><a href="">关于22世纪</a></li>
-            <li>|</li>
-            <li><a href="">帮助中心</a></li>
-        </ul>
-        <p>统一社会信用代码：91110102689248179K &nbsp;&nbsp;&nbsp;&nbsp;京公安备11010102001392京ICP证110119号&nbsp;&nbsp;&nbsp;&nbsp;京ICP备09084709号-3ISO9001中国质量管理体系认证</p>
-        <p>COPYRIGHT &copy; 2010-2016 上海虞衡文化传播有限公司 版权所有</p>
-        <ul class="Last-2">
-            <li><a href=""><img src="img/f1.jpg" alt=""></a></li>
-            <li><a href=""><img src="img/f2.jpg" alt=""></a></li>
-            <li><a href=""><img src="img/f3.png" alt=""></a></li>
-            <li><a href=""><img src="img/f4.jpg" alt=""></a></li>
-            <li><a href=""><img src="img/f5.jpg" alt=""></a></li>
-        </ul>
-    </footer>
-</div>
-<div class="fullscreen1">
-    <div class="f-header">
-        <p>加入购物车成功</p>
-        <span>&times;</span>
-    </div>
-    <div class="f-content">
-        <p>添加成功</p>
-        <a href="">去购物车结算</a>
-        <a href="">继续购物</a>
-    </div>
-</div>
-<script >
+<footer>
+    <ul class="Last-1">
+        <li><a href="">公司简介</a></li>
+        <li>|</li>
+        <li><a href="">联系我们</a></li>
+        <li>|</li>
+        <li><a href="">关于22世纪</a></li>
+        <li>|</li>
+        <li><a href="">帮助中心</a></li>
+    </ul>
+    <p>统一社会信用代码：91110102689248179K &nbsp;&nbsp;&nbsp;&nbsp;京公安备11010102001392京ICP证110119号&nbsp;&nbsp;&nbsp;&nbsp;京ICP备09084709号-3ISO9001中国质量管理体系认证</p>
+    <p>COPYRIGHT &copy; 2010-2016 上海虞衡文化传播有限公司 版权所有</p>
+    <ul class="Last-2">
+        <li><a href=""><img src="img/f1.jpg" alt=""></a></li>
+        <li><a href=""><img src="img/f2.jpg" alt=""></a></li>
+        <li><a href=""><img src="img/f3.png" alt=""></a></li>
+        <li><a href=""><img src="img/f4.jpg" alt=""></a></li>
+        <li><a href=""><img src="img/f5.jpg" alt=""></a></li>
+    </ul>
+</footer>
+</body>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/city.min.js"></script>
+<script>
     $(function () {
-        $(".addshop a").click(function () {
-            $(".fullscreen1").show();
-        });
-        $(".f-header").click(function () {
-            $(".fullscreen1").hide();
+        $(".del-Myadress").click(function () {
+            $(this).parent().parent().remove();
         });
     })
 </script>
-</body>
 </html>
